@@ -12,7 +12,7 @@ npm install promise-fiber --save
 
 # Usage
 
-## Import
+## Import
 
 From the main
 
