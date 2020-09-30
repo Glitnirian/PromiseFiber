@@ -1,0 +1,31 @@
+{
+  "name": "promise-fiber",
+  "version": "1.0.0",
+  "description": "A promise fiber (PromiseFiber) that give the triple (promise, resolve, reject) simply! And allow flexibility! And a more useful PromiseFibersClusterer! That allow promise stacking under an event or cluster name! And in multi place awaiting!",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "npx tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glitnirian/PromiseFiber.git"
+  },
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.3",
+    "typescript": "^3.9.7"
+  },
+  "author": "Glitnirian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glitnirian/PromiseFiber/issues"
+  },
+  "homepage": "https://github.com/Glitnirian/PromiseFiber#readme",
+  "keywords": ["promise", "fiber", "triple", "resolve", "reject", "typescript", "awaiting", "multiple", "cluster", "event", "simple", "flexible"]
+}
